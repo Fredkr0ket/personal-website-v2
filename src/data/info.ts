@@ -1,6 +1,6 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
+  name: "Ferdo van Balen",
   jobDescription: "Web Developer",
   about: `I'm a software engineer based in Karachi, Pakistan.
    I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
@@ -13,37 +13,12 @@ export const info = {
   `,
 
   experience: [
+    
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
-      description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
-    },
-
-    {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
-      description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Stage - Veranto B.V.",
+      location: "Leeuwarden",
+      startDate: "Sep 2022",
+      endDate: "Feb 2023",
       description: [
         "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
         "The internship track is built by an industry expert that let develop the skills in the areas most important ",
@@ -78,8 +53,6 @@ export const info = {
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
     github: "https://github.com/uzzii-21",
     email: "uzairahmed@74372gmail.com",
     linkedin: "https://www.linkedin.com/in/uzzii21/",
