@@ -4,10 +4,17 @@ import { IHeroProps } from "@types";
 const { name, about } = Astro.props as IHeroProps;
 ---
 
-<section>
-  <p class="dark:text-light mt-[117px]">Hey, I’m</p>
-  <h1>{name}</h1>
-  <p class="dark:text-light text-lg mb-16">
-    {about}
-  </p>
+<section class="h-screen flex flex-column items-center mt-[-70px]">
+  <div class="flex flex-row justify-around">
+    <div class="flex flex-col w-8/12">
+      <p class="dark:text-light">Hallo, ik ben</p>
+      <h1>{name}</h1>
+      <p class="dark:text-light text-lg mb-16">
+        {about}
+      </p>
+    </div>
+    <div class="flex flex-col justify-center items-center w-[300px] h-[300px]">
+      <img class="rounded-full object-scale-down" src="https://media.licdn.com/dms/image/C4E03AQGeiT_SUirv6g/profile-displayphoto-shrink_800_800/0/1668068818979?e=1686182400&v=beta&t=x0PpPT5VQKNLd7at_EO7tFqJyN71m0-WuVHNSezElmI" />
+    </div>
+  </div>
 </section>

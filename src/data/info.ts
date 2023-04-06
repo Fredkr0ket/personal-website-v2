@@ -3,8 +3,7 @@ export const info = {
   name: "Ferdo van Balen",
   jobDescription: "Software Developer",
   about: `
-    Ik ben een
-      
+  een enthousiaste en gemotiveerde programmeur. Ik focus mij vooral op het programeren van micro controllers en esp's. Ik hou mij ook graag bezig met het programmeren van api's
   `,
 
   experience: [
@@ -48,9 +47,9 @@ export const info = {
   ],
 
   socialMedia: {
-    github: "https://github.com/uzzii-21",
+    github: "https://github.com/Fredkr0ket",
     email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    linkedin: "https://www.linkedin.com/in/ferdo-van-balen-441879241/",
   },
 
   projects: [

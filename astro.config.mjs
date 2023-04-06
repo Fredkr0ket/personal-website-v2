@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
+import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,5 +16,6 @@ export default defineConfig({
       entryLimit: 10000,
     }),
     robotsTxt(),
+    react()
   ],
 });
