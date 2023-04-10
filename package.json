@@ -16,6 +16,7 @@
     "astro-robots-txt": "^0.3.8"
   },
   "dependencies": {
+    "@astrojs/react": "^2.1.1",
     "react-use-scroll-snap": "^0.0.4"
   }
 }
